@@ -73,17 +73,16 @@ Target variable:
 ---
 
 ##  Project Structure
+```
 co2-solubility-ml/
-│
-├── data/
-├── src/
-├── notebooks/
-├── results/
-├── models/
-|── main.py
-├── requirements.txt
-└── README.md
-
+├── data/               # Raw and processed brine datasets
+├── notebooks/          # Exploratory Data Analysis (EDA)
+├── results/            # Model plots, CSV outputs, and residuals
+├── src/                # Modular Python scripts
+├── main.py             # Entry point to run the full pipeline
+├── requirements.txt    # Library dependencies
+└── README.md           # Project documentation
+```
 ---
 
 ## Visualizations
