@@ -75,6 +75,7 @@ Target variable:
 ##  Project Structure
 ```
 co2-solubility-ml/
+├── .gitignore          # Files to exclude from Git(cache, venv)
 ├── data/               # Raw and processed brine datasets
 ├── notebooks/          # Exploratory Data Analysis (EDA)
 ├── results/            # Model plots, CSV outputs, and residuals
